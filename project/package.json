@@ -1,0 +1,19 @@
+{
+  "name": "alexa-skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/salvatorecordiano/alexa-skill-boilerplate",
+  "author": "Salvatore Cordiano",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn global add typescript && tsc",
+    "watch": "yarn global add typescript && tsc --watch"
+  },
+  "dependencies": {
+    "ask-sdk": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "typescript": "^3.7.2"
+  }
+}
