@@ -6,14 +6,21 @@
   "author": "Salvatore Cordiano",
   "license": "MIT",
   "scripts": {
-    "build": "yarn global add typescript && tsc",
-    "watch": "yarn global add typescript && tsc --watch"
+    "compile": "yarn global add typescript && tsc",
+    "watch": "yarn global add typescript && tsc --watch",
+    "build": "webpack --config ./webpack.config.js"
   },
   "dependencies": {
     "ask-sdk": "^2.7.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
     "@types/node": "^12.12.7",
-    "typescript": "^3.7.2"
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
