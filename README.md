@@ -26,5 +26,3 @@ aws lambda create-function --function-name alexa-skill-boilerplate \
 ```
 aws lambda update-function-code --function-name alexa-skill-boilerplate --zip-file fileb://deploy.zip
 ```
-
-
