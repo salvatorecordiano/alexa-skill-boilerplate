@@ -6,8 +6,8 @@
   "author": "Salvatore Cordiano",
   "license": "MIT",
   "scripts": {
-    "compile": "yarn global add typescript && tsc",
-    "watch": "yarn global add typescript && tsc --watch",
+    "compile": "tsc",
+    "watch": "tsc --watch",
     "build": "webpack --config ./webpack.config.js"
   },
   "dependencies": {

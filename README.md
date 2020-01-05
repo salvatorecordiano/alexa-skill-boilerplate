@@ -1,8 +1,8 @@
 # Alexa Skill Boilerplate (TypeScript)
 
-- Run `./setup.sh` to install dependencies
-- Run `./container-bash.sh` to use bash inside container
-- Run `./build.sh` to create a build
+- Run `make setup` to install dependencies
+- Run `make container-bash` to use bash inside container
+- Run `make build` to create a build
 
 This boilerplate use the skill interaction models described in file `skill.json`
 
